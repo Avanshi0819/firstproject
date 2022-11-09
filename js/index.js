@@ -1,1 +1,0 @@
-alert('dekh ho gaya')

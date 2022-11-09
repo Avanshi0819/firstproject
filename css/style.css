@@ -1,0 +1,74 @@
+body{
+    background: rgb(194, 197, 193);
+}
+.first{
+    color: antiquewhite;
+    
+}
+.second{
+    background-color: bisque;
+    color: blueviolet;
+}
+.third{
+    color: brown;
+}
+.fourth{
+    background-color: rgb(79, 14, 171);
+    color: rgb(234, 241, 234);
+}
+p{
+    font-size: small;
+}
+.section_1{
+    background-color: rgb(131, 153, 153);
+    /* height: 100px; */
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url('');
+}
+.para{
+    /* display: inline; */
+    height: 100px;
+    background-color: red;
+    padding: 10px;
+}
+.sp1{
+    color: rgb(217, 226, 199);
+}
+.container{
+    background-color: black;
+    /* height: 50px; */
+    /* float: right; */
+    /* width: 70%; */
+    height: 200px;
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: flex-start;
+    flex-direction: row;
+    /* width: 25%; */
+}
+.p1{
+    color: white;
+    /* width: 100px; */
+    /* display: inline-block; */
+    text-align: center;
+    padding: 15px;
+    height: 50px;
+    background-color: aqua;
+    /* float: right; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    
+}
+.p1:hover{
+    background-color: beige;
+    color: red;
+    /* width: 110px; */
+    padding: 20px;
+    transform: rotate(5deg);
+    font-size: 17px;
+    border: 2px solid red;
+}

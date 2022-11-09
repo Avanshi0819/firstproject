@@ -1,0 +1,221 @@
+.container {
+    width: 800px;
+
+    height: 80px;
+    align-items: center;
+    border: 1px solid rgb(201, 197, 183);
+    ;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+
+
+
+}
+
+.second {
+    background-color: rgb(14, 14, 49);
+    /* padding: 0.5px; */
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second p {
+    color: white;
+    /* text-align: center; */
+    font-size: small;
+
+}
+
+.sec {
+    height: 50px;
+    background-color: rgb(195, 247, 118);
+    display: flex;
+
+}
+
+.s1 {
+    background-color: white;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgb(201, 197, 183);
+}
+
+.s2 {
+    background-color: white;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.s3 {
+    background-color: white;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgb(201, 197, 183);
+}
+
+;
+
+.s1 p {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.PofS2 {
+    font-size: 10px;
+    color: green;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.S3 P {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.we {
+    background-image: url('../');
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.we p1 {
+    font-size: 30px;
+    font-weight: normal;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.we p2 {
+    font-size: 50px;
+    font-weight: normal;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.we p3 {
+    font-size: 20px;
+    font-weight: normal;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.but1 {
+
+    background-color: white;
+    color: green;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 43px;
+    width: 110px;
+    height: 32px;
+    margin-top: 43px;
+
+}
+
+.headerMain{
+    background-image: url('../images/fruits.jpg');
+    height: 400px;
+}
+
+
+.te{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fruits{
+    margin-top: -30px;
+    height: 96px;
+    width: 782px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.veg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.other{
+    width: 100%;
+    
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ot{
+    width: 782px;
+    
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right{
+    width: 49%;
+    background-color: grey;
+    height:200px;
+    margin-top: 30px;
+    background-image: url('../images/cabbage.jpg');
+}
+.left{
+    width: 49%;
+    background-color: peachpuff;
+    height: 200px;
+    margin-top: 30px;
+    background-image: url('../images/straw.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+.rig{
+    margin-top: 35px;
+    margin-left: 12px;
+}
+.lif{
+    margin-top: 35px;
+    margin-left: 12px;
+}
